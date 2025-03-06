@@ -77,7 +77,7 @@ udp_thread.start()
 - **Líneas 40-44:** Creamos dos hilos para que TCP y UDP funcionen simultáneamente.
 -->
 - ### iniciamos el server
-![Ejemplo codigo server](imagenes\inicioserver.png)
+![Ejemplo codigo server](imagenes/inicioserver.png)
 ----
 
 
@@ -151,7 +151,7 @@ Servidor TCP respondió: Servidor TCP recibió: Hola, Servidor TCP
 Escribe un mensaje (TCP): exit
 ```
 
-![Ejemplo Cliente TCP](imagenes\clientetcp.png)
+![Ejemplo Cliente TCP](imagenes/clientetcp.png)
 
 ### 4.2. Cliente UDP
 Ejemplo de comunicación entre el cliente y el servidor usando UDP:
@@ -163,7 +163,7 @@ Servidor UDP respondió: Servidor UDP recibió: Hola, Servidor UDP
 Escribe un mensaje (UDP): exit
 ```
 
-![Ejemplo Cliente UDP](imagenes\clienteudp.png)
+![Ejemplo Cliente UDP](imagenes/clienteudp.png)
 
 ---
 
@@ -185,10 +185,10 @@ Se puede usar **Wireshark** para capturar el tráfico de red mientras el cliente
 
 ### 5.2. Captura de Tráfico UDP
 
-![Captura de Tráfico UDP](imagenes\capturasahrkudp.png)
+![Captura de Tráfico UDP](imagenes/capturasahrkudp.png)
 
 ### 5.3. Captura de Tráfico TCP
-![Captura de Tráfico TCP](imagenes\capturasahrktcp.png)
+![Captura de Tráfico TCP](imagenes/capturasahrktcp.png)
 
 ---
 
@@ -201,6 +201,3 @@ Se puede usar **Wireshark** para capturar el tráfico de red mientras el cliente
 Este proyecto demuestra cómo implementar la comunicación Cliente-Servidor con TCP y UDP en Python. La explicación del código permite comprender su funcionamiento, y los desafíos presentados durante el desarrollo proporcionan valiosas lecciones. La integración con herramientas como Wireshark también es útil para analizar el tráfico y comprender cómo se gestionan las conexiones en la red.
 
 🚀
-```
-
-Solo debes reemplazar las rutas de las imágenes con las ubicaciones correctas en tu sistema o repositorio. ¿Hay algo más que quieras agregar o modificar?
